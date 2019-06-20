@@ -1,0 +1,333 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/******************************************************************/
+/* Inicio Menu superior */
+.bem-vindo, #pedidos, #atendimento{ /*Menu superior*/
+  font-size: 10px;
+  color: white;    
+}
+.pedidos-atendimentos{ /*Menu superior*/
+  float: right;
+  margin-right: -25px;
+  margin-top: -4px;
+}
+#pedidos{ /*Menu superior*/
+  margin-right: 20px;
+}
+#atendimento{ /*Menu superior*/
+  margin-right: 0px;
+}
+.bem-vindo{ /*Menu superior*/
+  margin-left: -25px;
+}
+#ses1{
+  margin: 9px 0 0 0;
+}
+/* Fim Menu superior */
+
+/******************************************************************/
+/* Inicio Menu */
+li, #valor>p{ /*Valor e letra menu - Tipografia*/
+  color: white;
+  margin: 0 0 -2px 0;  
+}
+.btn-menu{ /*Botões Menu*/
+  color: white;
+}
+.glyphicon-search{ /*Lupa*/
+  color: white;
+  margin-top: 2%;
+}
+.pull-left{ /*Barra de pesquisa*/
+  margin: 10px 0 0 10px;
+}
+#ecommerce{ /*Carrinho de compra*/
+  float: right;
+  margin-right: -10px;
+}
+.navbar{ /*Borda do menu*/
+  border-radius: 0px;
+}
+.navbar-brand{ /*Logo menu*/
+    padding: 0 0 10px 20px;
+}
+#myNavbar{ /*Espessura do Menu*/
+    margin-top: 12px;
+}
+.navbar-inverse{
+  background-color: rgb(50, 50, 50);
+  border: none;
+}
+#menu{
+  margin-top: -5px;
+}
+#search {
+  color: #fffefe;
+  width: 200px;
+  background-color: #333333;
+  border-radius: 0;
+  border: none;
+  border-bottom: solid 2px #999999; 
+  box-shadow: none;
+  padding: 0;
+  float: left;
+  
+}
+#search::-webkit-input-placeholder {
+color: #fffefe;
+font-weight: lighter;
+}
+
+#search:-moz-placeholder { /* Firefox 18- */
+color: #fffefe;
+font-weight: lighter;
+}
+
+#search:-ms-input-placeholder {  
+color: #fffefe;
+font-weight: lighter;
+}
+#headerContent form #searchButton {
+background-color: #333333;
+color: #ffffff;
+font-size: 20px;
+border: none;
+}
+#valor{
+  text-indent: 10px;
+}
+.navbar-toggle{
+  position: relative;
+  float: right;
+  padding: 9px 10px;
+  margin-right: -10px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  background-color: transparent;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+/*Fim Menu*/
+
+/******************************************************************/
+/* Inicio Galeria*/
+#destaque{
+  width: 102%;
+
+}
+#col-destaque{
+  margin: -21px 0px 0px -10px;
+}
+#sec-galeria{
+  margin: 40px 30px 0px 0px;
+}
+
+#rodas{
+  width: 102%;
+  margin: 0px 0px 0px 5px;
+}
+#camaro{
+  width: 102%;
+  margin: 0px 0px 0px 17px;
+}
+.terceira-coluna{
+  margin: 20px 0px 0px 0px;
+}
+#mustang{
+  width: 105%;
+  margin: 0px 10px 0px -10px;
+}
+#camaro-menor{
+  width: 105%;
+  margin: 0px 4px 0px 4px;
+}
+#roda-menor{
+  width: 105%;
+  margin: 0px 0px 0px 25px;
+}
+/* Fim Galeria*/
+
+/******************************************************************/
+/* Inicio Mais Desejados*/
+h2{ /*Cabeçalhos - Tipografia*/
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+}
+#desejados{
+  margin: 30px -40px 0px 50px;
+}
+.dvd{
+  text-indent: 5%;
+}
+.promo{
+  text-indent: 10%;
+}
+.dividido{
+  text-indent: 12%;
+}
+.btn-link{ /*Botão do Mais Desejados*/
+  margin-left: 16%;
+}
+/* Fim Mais Desejados*/
+
+/******************************************************************/
+/* Inicio Receba Novidades*/
+#email{
+text-indent: 0%;
+}
+#novidades{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #dadada;
+    height: 400px;
+}
+#banner{
+    padding: 10px;
+}
+#contato{
+    text-indent: 0px;
+}
+/* Fim Receba Novidades*/
+
+/******************************************************************/
+/* Inicio Footer*/
+#nav-footer{
+  background-color: rgb(50, 50, 50);
+  color: white;
+  margin-top: -10px;
+}
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+li a{
+  color: white;
+  line-height: 1.8;
+}
+#ajuda{
+  padding: 40px 0 0 0;
+  font-size: 15px;
+}
+#logo-footer{
+  padding: 70px 0 0 30px;
+}
+#footerCenterMenu{
+  padding: 50px 0 0 0px;;
+}
+.footer-inline>li{
+  display: inline;
+  padding-top: 20px;
+  padding-right: 15px;
+}
+.footer-at{
+  margin: 50px 0 0 0;
+  text-align: right;
+  padding-bottom: 50px;
+}
+.atendimento-footer{
+  margin: 0 0px 0 100px;
+  font-size: 15px;
+  line-height: 1.8;
+}
+#fone{
+  font-size: 30px;
+}
+
+/* Cartões */
+.formaPagamento{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+
+#cartoes>li{
+  display: inline;
+}
+
+/******************************************************************/
+/* Inicio Resolução Mobile inferior 600px */
+@media only screen and (max-width: 600px){
+  #fone{
+    font-size: 20px;
+  }
+
+  /* Menu*/
+  #pedidos{
+    margin-right: 10px;
+  } 
+  .navbar-brand{
+    width: 50%;
+    height: 50%;
+    margin-left: -10px; 
+  }
+  #ecommerce{
+    float: left;
+  }
+
+  /* Footer */
+  #contato{
+    text-align: center;
+  }
+
+  /* Mais Desejados */
+  h2{ /*Cabeçalhos - Tipografia*/
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 20px 0 0 0;
+  }
+  #desejados{
+    margin: 20px -40px 0px -30px;
+  }
+  .pionner{
+    width: 100%;
+    margin: 0 0 0 -10px;
+  }
+  .dvd{
+    font-size: 15px;
+    text-indent: 10px;
+  }
+  .promo{
+    text-indent: 0px;
+  }
+  .dividido{
+    text-indent: 0px;
+  }
+  .btn-link{
+    margin-top: -10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+  }
+
+  /* Destaques */
+  #destaque{
+    width: 124%;
+    margin: 0px 0px 0px -21px;
+  }
+  #rodas{
+    width: 140%;
+    margin: -15px 0px 0px -31px;
+  }
+  #camaro{
+    width: 140%;
+    margin: -1px 0px 0px -31px;
+  }
+  #mustang{
+    width: 220%;
+    margin: -12px 0px 0px -45px;
+  }
+  #camaro-menor{
+    width: 220%;
+    margin: -12px 0px 0px -12px;
+  }
+  #roda-menor{
+    width: 220%;
+    margin: -12px 0px 0px 20px;
+  }
+}
+/* Fim Resolução Mobile inferior 600px */
